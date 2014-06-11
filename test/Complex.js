@@ -7,7 +7,7 @@ describe('Complex', function(){
 	it('should create a complex number', function(){
 		var num = new Complex(1, 2);
 		expect(num.real).to.equal(1);
-		expect(num.im).to.equal(2);
+		expect(num.imag).to.equal(2);
 	});
 
 	it('should parse a string into a complex number', function(){
@@ -21,13 +21,6 @@ describe('Complex', function(){
 		expect(Complex.from(0, 0).toString()).to.equal('0');
 		expect(Complex.from(0, 2).toString()).to.equal('2i');
 		expect(Complex.from(0, -2).toString()).to.equal('-2i');
-	});
-
-	it('should make a number read-only with the finalize method', function(){
-		var z = new Complex(1, 2).finalize();
-		var w = z.add(new Complex(3, 4)); // On a new line, because z would become a new instance after the add method.
-		expect(z.toString()).to.equal('1+2i');
-		expect(w.toString()).to.equal('4+6i');
 	});
 
 	it('should calculate the magnitude of the number', function(){
@@ -120,7 +113,7 @@ describe('Complex', function(){
 	it('should take the natural logartithm with the second multiplicity', function(){
 		var n = Complex.from(Math.pow(Math.E, 2)).log(2);
 		expect(n.real).to.equal(2);
-		expect(n.im).to.equal(4 * Math.PI);
+		expect(n.imag).to.equal(4 * Math.PI);
 	});
 
 	it('it should return the exponential', function(){
