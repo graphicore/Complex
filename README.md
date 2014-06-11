@@ -18,9 +18,9 @@ Changes in Details
 ------------------
 
 * I changed the name of the imaginary part from "im" to "imag", because
-  it is more verbose and because it reminds me of the API fo complex
+  it is more verbose and because it reminds me of the API for complex
   numbers in Python.
-* I added an operator like API as aliases for existing funktions. You can
+* I added an operator like API as aliases for existing functions. You can
   access them via the brackets `c['='](d)`
   New aliases are:
   
