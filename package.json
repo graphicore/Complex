@@ -1,6 +1,6 @@
 {
-  "name": "complex",
-  "homepage": "http://github.com/arian/Complex",
+  "name": "immutable-complex",
+  "homepage": "http://github.com/graphicore/Complex",
   "version": "3.0.1",
   "description": "Do calculations with Complex numbers",
   "keywords": [
@@ -9,14 +9,14 @@
     "Math",
     "Calculus"
   ],
-  "author": "Arian Stolwijk",
+  "author": "Arian Stolwijk, Lasse Fister",
   "maintainers": [
     {
-      "name": "Arian Stolwijk",
-      "web": "http://aryweb.nl"
+      "name": "Lasse Fister",
+      "web": "http://graphicore.de"
     }
   ],
-  "bugs": "https://github.com/arian/Complex/issues",
+  "bugs": "https://github.com/graphicore/Complex/issues",
   "licenses": [
     {
       "type": "MIT",
@@ -25,10 +25,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/arian/Complex"
+    "url": "http://github.com/graphicore/Complex"
   },
   "main": "lib/Complex",
-  "icon": "https://github.com/arian/Complex/raw/master/wiki-complex.png",
+  "icon": "https://github.com/graphicore/Complex/raw/master/wiki-complex.png",
   "devDependencies": {
     "mocha": "1.3",
     "expect.js": "0.1",
