@@ -1,7 +1,7 @@
 {
   "name": "immutable-complex",
   "homepage": "http://github.com/graphicore/Complex",
-  "version": "3.0.6",
+  "version": "3.0.7",
   "description": "Do calculations with Complex numbers",
   "keywords": [
     "Complex Numbers",
